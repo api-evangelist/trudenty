@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trudenty.com/trust-center
+url: https://trudenty.com/trust-center
+certifications:
+- ISO 27001
+- SOC 2 Type II
+- SOC 2 Type I
+documents:
+- name: ISO 27001 Certificate
+- name: SOC 2 Type II Report
+- name: SOC 2 Type I Report
+- name: AI Governance Overview
+- name: Responsible AI Statement
+- name: Data Processing Agreement
+access: Documents available on request via the Trust Center portal
+evidence:
+- source: https://trudenty.com/trust-center
+  keywords:
+  - iso 27001
+  - soc 2 type ii
+  - trust center
+  - responsible ai
+  - data processing agreement

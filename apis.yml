@@ -1,7 +1,26 @@
 aid: trudenty
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trudenty.png
 name: Trudenty
-description: Trudenty is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Trudenty is a fraud and risk intelligence platform that operates The Trust
+  Network — a distributed, privacy-preserving infrastructure delivering real-time consumer
+  trust and fraud intelligence across the payments ecosystem. It combines behavioural,
+  transactional and network-level signals with machine learning and behavioural science
+  to distinguish trusted consumers from fraudsters and prevent first-party (friendly)
+  fraud, producing an explainable Trust Score across the checkout, claims and dispute
+  lifecycle. Trudenty serves PSPs, acquirers and processors, and merchants, processing
+  data where it lives so that no data leaves a client's organisation. It is a Mastercard
+  Start Path and Techstars-backed startup, ISO 27001 certified and SOC 2 Type II audited.
 url: https://raw.githubusercontent.com/api-evangelist/trudenty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fraud Prevention
+- Risk Intelligence
+- Payments
+- Trust
+- Fraud Detection
+- Fintech
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://trudenty.com/
+- type: Documentation
+  url: https://docs.trudenty.com
+- type: Blog
+  url: https://trudenty.com/blog
+- type: TrustCenter
+  url: security/trudenty-trust-center.yml
+- type: Compliance
+  url: https://trudenty.com/trust-center
+- type: TermsOfService
+  url: https://trudenty.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://trudenty.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/trudenty
+- type: DomainSecurity
+  url: security/trudenty-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
