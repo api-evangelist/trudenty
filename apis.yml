@@ -48,9 +48,8 @@ tags:
 - Risk Intelligence
 - Payments
 - Trust
-- Fraud Detection
 - Fintech
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Fraud Prevention
@@ -60,6 +59,7 @@ tags_raw:
 - Fraud Detection
 - Fintech
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
